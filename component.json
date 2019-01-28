@@ -1,8 +1,8 @@
 {
     "name": "mrohnstock-bootstrap-multiselect",
     "repo": "mrohnstock/bootstrap-multiselect",
-    "description": "Twitter Bootstrap plugin to make selects user friendly.",
-    "version": "0.9.13",
+    "description": "JQuery multiselect plugin based on Twitter Bootstrap.",
+    "version": "0.9.15",
     "homepage": "http://davidstutz.github.io/bootstrap-multiselect/",
     "licenses": [
         {
@@ -19,18 +19,15 @@
         "multiselect"
     ],
     "dependencies": {
-        "components/jquery": ">=1.11.0",
-        "components/bootstrap": ">= 2.3.2"
+        "components/jquery": "~2.1.3"
     },
     "main": "js/bootstrap-multiselect.js",
     "scripts": [
-        "js/bootstrap-multiselect.js",
-        "js/bootstrap-multiselect-collapsible-groups.js"
+        "js/bootstrap-multiselect.js"
     ],
     "files": [
         "css/bootstrap-multiselect.css",
         "js/bootstrap-multiselect.js",
-        "js/bootstrap-multiselect-collapsible-groups.js",
         "less/bootstrap-multiselect.less"
     ]
 }
